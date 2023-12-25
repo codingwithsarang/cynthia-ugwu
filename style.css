@@ -127,3 +127,39 @@ html,body{
     position: absolute;
 
 }
+#about{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    width: 100%;
+    background-color: black;
+}
+#about img{
+    width: 200px;
+}
+#textabout{
+    width: 25rem;
+
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .8;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 100px;
+    text-decoration: none;
+}
